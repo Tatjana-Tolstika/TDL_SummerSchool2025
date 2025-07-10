@@ -48,11 +48,11 @@ export class CheckoutPage {
         await expect(this.summaryItemPrice).toHaveText(productPrice);
     };
 
-    async sumAndTax(){
-        let sumPrice =0;
-        for(let i =0 ; i < this.checkoutItemContainer.length; i++){
-            sumPrice=+ this.checkoutInfoContainer[i];
-        }
-    }
+    // async sumAndTax(){
+    //     let sumPrice =0;
+    //     for(let i =0 ; i < this.checkoutItemContainer.length; i++){
+    //         sumPrice=+ this.checkoutInfoContainer[i];
+    //     }
+    // }
 
 }
